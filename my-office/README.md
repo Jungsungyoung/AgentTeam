@@ -198,8 +198,10 @@ npm run format:check
 - [x] **Phase 2 Week 1**: Bridge Service 및 통합 인프라 (완료)
   - SSE 기반 실시간 API, 캐싱 시스템, 비용 모니터링
   - React Hook 통합, 통합 테스트 및 이슈 수정
-- [ ] **Phase 2 Week 2**: Hybrid 모드 구현 (진행 예정)
-  - Claude API 실제 통합, 캐시 최적화
+- [x] **Phase 2 Week 2**: Hybrid 모드 구현 (완료)
+  - Claude API 클라이언트, Hybrid 모드 핵심 로직
+  - 프론트엔드 Hybrid UI 및 상태 관리
+  - 종합 사용 가이드 및 API 문서화
 - [ ] **Phase 2 Week 3**: Real 모드 및 고급 기능
   - Claude Code CLI 통합, 에이전트 간 협업
 - [ ] **Phase 3**: 성능 최적화 및 고급 UI
@@ -270,10 +272,20 @@ npm run format:check
 
 자세한 문서는 `docs/` 디렉토리를 참고하세요:
 
-- [개발 모드 가이드](docs/development-modes.md)
-- [통합 빠른 시작](docs/INTEGRATION_QUICK_START.md)
+### 사용 가이드
+- [개발 모드 가이드](docs/development-modes.md) - 3가지 모드 비교 및 설정
+- [Hybrid 모드 완전 가이드](docs/HYBRID_MODE_GUIDE.md) - 비용 최적화 및 실전 사용법
+- [통합 빠른 시작](docs/INTEGRATION_QUICK_START.md) - 빠른 시작 가이드
+
+### API 및 기술 문서
+- [API 문서](docs/API_DOCUMENTATION.md) - Bridge Service API 완전 참조
+- [상태 관리 가이드](docs/state-management-guide.md) - Zustand 사용법
+
+### 프로젝트 문서
 - [Phase 2 Week 1 설정 요약](../SETUP_PHASE2_WEEK1.md)
 - [Week 1 통합 테스트 보고서](../WEEK1_INTEGRATION_TEST_REPORT.md)
+- [Week 1 회고](../WEEK1_RETROSPECTIVE.md)
+- [Week 2 회고](../WEEK2_RETROSPECTIVE.md)
 
 ---
 
