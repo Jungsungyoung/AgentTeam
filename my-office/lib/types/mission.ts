@@ -7,4 +7,5 @@ export interface Mission {
   assignedAgents: string[];
   createdAt: Date;
   completedAt?: Date;
+  deliverables?: string[]; // Array of deliverable IDs
 }

@@ -4,23 +4,44 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:sim": "MODE=sim next dev",
+    "dev:hybrid": "MODE=hybrid next dev",
+    "dev:real": "MODE=real next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
-    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,css,md}\""
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "test:cache": "tsx scripts/test-cache.ts",
+    "test:claude": "tsx scripts/test-claude-client.ts",
+    "test:cache-perf": "tsx scripts/test-cache-performance.ts",
+    "test:e2e": "tsx tests/e2e/run-all-tests.ts",
+    "test:e2e:1": "tsx tests/e2e/scenario1-simple-mission.ts",
+    "test:e2e:2": "tsx tests/e2e/scenario2-user-prompt.ts",
+    "test:e2e:3": "tsx tests/e2e/scenario3-collaboration.ts",
+    "test:e2e:4": "tsx tests/e2e/scenario4-skill-application.ts",
+    "test:playwright": "playwright test",
+    "test:playwright:ui": "playwright test --ui",
+    "test:playwright:headed": "playwright test --headed",
+    "test:playwright:debug": "playwright test --debug",
+    "test:playwright:report": "playwright show-report"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.74.0",
+    "@types/react-syntax-highlighter": "^15.5.13",
     "class-variance-authority": "^0.7.1",
     "next": "16.1.6",
     "radix-ui": "^1.4.3",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "react-markdown": "^10.1.0",
+    "react-syntax-highlighter": "^16.1.0",
     "zustand": "^5.0.11"
   },
   "devDependencies": {
+    "@playwright/test": "^1.58.2",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^20.19.33",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "clsx": "^2.1.1",
@@ -29,6 +50,7 @@
     "prettier": "^3.8.1",
     "tailwind-merge": "^3.4.0",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }

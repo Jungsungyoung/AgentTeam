@@ -1,0 +1,362 @@
+<testsuites id="" name="" tests="87" failures="0" skipped="0" errors="0" time="65.428622">
+<testsuite name="specs\01-mission-submission.spec.ts" timestamp="2026-02-13T00:10:08.026Z" hostname="chromium" tests="5" failures="0" skipped="0" time="26.244" errors="0">
+<testcase name="Mission Submission and Agent Collaboration › should load office page with all zones visible" classname="specs\01-mission-submission.spec.ts" time="4.94">
+</testcase>
+<testcase name="Mission Submission and Agent Collaboration › should display mission input interface" classname="specs\01-mission-submission.spec.ts" time="4.874">
+</testcase>
+<testcase name="Mission Submission and Agent Collaboration › should submit mission in simulation mode" classname="specs\01-mission-submission.spec.ts" time="7.258">
+<system-out>
+<![CDATA[Mission submitted in simulation mode
+]]>
+</system-out>
+</testcase>
+<testcase name="Mission Submission and Agent Collaboration › should display agent pixel art in work zone" classname="specs\01-mission-submission.spec.ts" time="4.684">
+<system-out>
+<![CDATA[Agents visibility - LEO: false, MOMO: false, ALEX: false
+]]>
+</system-out>
+</testcase>
+<testcase name="Mission Submission and Agent Collaboration › should show terminal log messages" classname="specs\01-mission-submission.spec.ts" time="4.488">
+<system-out>
+<![CDATA[Terminal visibility: false, Logs visibility: false
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="specs\02-agent-chat.spec.ts" timestamp="2026-02-13T00:10:08.026Z" hostname="chromium" tests="7" failures="0" skipped="0" time="27.298" errors="0">
+<testcase name="Agent Chat System › should display chat panel interface" classname="specs\02-agent-chat.spec.ts" time="4.797">
+<system-out>
+<![CDATA[Chat panel visibility: false
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should display agent selector" classname="specs\02-agent-chat.spec.ts" time="4.674">
+<system-out>
+<![CDATA[Agent selector visibility: true
+Available agents: [ [32m'LEO - 코드 마스터'[39m, [32m'MOMO - 기획 천재'[39m, [32m'ALEX - 분석가'[39m ]
+Agents - LEO: true, MOMO: true, ALEX: true
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should send message to LEO" classname="specs\02-agent-chat.spec.ts" time="4.475">
+<system-out>
+<![CDATA[Chat interface not fully available
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should send message to MOMO" classname="specs\02-agent-chat.spec.ts" time="3.196">
+<system-out>
+<![CDATA[Chat not available
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should send message to ALEX" classname="specs\02-agent-chat.spec.ts" time="3.401">
+<system-out>
+<![CDATA[Chat not available
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should display chat message history" classname="specs\02-agent-chat.spec.ts" time="4.376">
+</testcase>
+<testcase name="Agent Chat System › should show typing indicator during response (if implemented)" classname="specs\02-agent-chat.spec.ts" time="2.379">
+</testcase>
+</testsuite>
+<testsuite name="specs\03-deliverables.spec.ts" timestamp="2026-02-13T00:10:08.026Z" hostname="chromium" tests="8" failures="0" skipped="0" time="28.257" errors="0">
+<testcase name="Deliverables UI System › should load deliverables test page" classname="specs\03-deliverables.spec.ts" time="2.326">
+</testcase>
+<testcase name="Deliverables UI System › should display sample deliverable cards" classname="specs\03-deliverables.spec.ts" time="4.15">
+<system-out>
+<![CDATA[Deliverable cards count: 0
+]]>
+</system-out>
+</testcase>
+<testcase name="Deliverables UI System › should filter deliverables by type" classname="specs\03-deliverables.spec.ts" time="4.117">
+<system-out>
+<![CDATA[All filter: 0 deliverables
+]]>
+</system-out>
+</testcase>
+<testcase name="Deliverables UI System › should open deliverable viewer with syntax highlighting" classname="specs\03-deliverables.spec.ts" time="4.045">
+<system-out>
+<![CDATA[No deliverables to test
+]]>
+</system-out>
+</testcase>
+<testcase name="Deliverables UI System › should display markdown rendering for documents" classname="specs\03-deliverables.spec.ts" time="2.935">
+</testcase>
+<testcase name="Deliverables UI System › should support download functionality" classname="specs\03-deliverables.spec.ts" time="3.552">
+</testcase>
+<testcase name="Deliverables UI System › should show deliverable type badges" classname="specs\03-deliverables.spec.ts" time="3.594">
+</testcase>
+<testcase name="Deliverables UI System › should show agent color indicators" classname="specs\03-deliverables.spec.ts" time="3.538">
+</testcase>
+</testsuite>
+<testsuite name="specs\04-conversation-timeline.spec.ts" timestamp="2026-02-13T00:10:08.026Z" hostname="chromium" tests="9" failures="0" skipped="0" time="30.901" errors="0">
+<testcase name="Conversation Timeline › should display conversation timeline component" classname="specs\04-conversation-timeline.spec.ts" time="3.78">
+<system-out>
+<![CDATA[Conversation timeline visibility: false
+]]>
+</system-out>
+</testcase>
+<testcase name="Conversation Timeline › should show collaboration filter options" classname="specs\04-conversation-timeline.spec.ts" time="2.183">
+</testcase>
+<testcase name="Conversation Timeline › should display collaboration events after mission" classname="specs\04-conversation-timeline.spec.ts" time="7.69">
+<system-out>
+<![CDATA[Collaboration events: 0
+]]>
+</system-out>
+</testcase>
+<testcase name="Conversation Timeline › should show agent colors in collaboration messages" classname="specs\04-conversation-timeline.spec.ts" time="1.986">
+</testcase>
+<testcase name="Conversation Timeline › should display collaboration type badges" classname="specs\04-conversation-timeline.spec.ts" time="2.212">
+</testcase>
+<testcase name="Conversation Timeline › should show timestamps on events" classname="specs\04-conversation-timeline.spec.ts" time="2.245">
+</testcase>
+<testcase name="Conversation Timeline › should filter by collaboration type" classname="specs\04-conversation-timeline.spec.ts" time="2.291">
+</testcase>
+<testcase name="Conversation Timeline › should show empty state when no collaborations" classname="specs\04-conversation-timeline.spec.ts" time="2.302">
+</testcase>
+<testcase name="Conversation Timeline › should display conversation flow (from → to)" classname="specs\04-conversation-timeline.spec.ts" time="6.212">
+</testcase>
+</testsuite>
+<testsuite name="specs\01-mission-submission.spec.ts" timestamp="2026-02-13T00:10:08.026Z" hostname="firefox" tests="5" failures="0" skipped="0" time="36.961" errors="0">
+<testcase name="Mission Submission and Agent Collaboration › should load office page with all zones visible" classname="specs\01-mission-submission.spec.ts" time="8.828">
+</testcase>
+<testcase name="Mission Submission and Agent Collaboration › should display mission input interface" classname="specs\01-mission-submission.spec.ts" time="9.126">
+</testcase>
+<testcase name="Mission Submission and Agent Collaboration › should submit mission in simulation mode" classname="specs\01-mission-submission.spec.ts" time="8.139">
+<system-out>
+<![CDATA[Mission submitted in simulation mode
+]]>
+</system-out>
+</testcase>
+<testcase name="Mission Submission and Agent Collaboration › should display agent pixel art in work zone" classname="specs\01-mission-submission.spec.ts" time="6.708">
+<system-out>
+<![CDATA[Agents visibility - LEO: false, MOMO: false, ALEX: false
+]]>
+</system-out>
+</testcase>
+<testcase name="Mission Submission and Agent Collaboration › should show terminal log messages" classname="specs\01-mission-submission.spec.ts" time="4.16">
+<system-out>
+<![CDATA[Terminal visibility: false, Logs visibility: false
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="specs\02-agent-chat.spec.ts" timestamp="2026-02-13T00:10:08.026Z" hostname="firefox" tests="7" failures="0" skipped="0" time="53.924" errors="0">
+<testcase name="Agent Chat System › should display chat panel interface" classname="specs\02-agent-chat.spec.ts" time="5.699">
+<system-out>
+<![CDATA[Chat panel visibility: false
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should display agent selector" classname="specs\02-agent-chat.spec.ts" time="10.895">
+<system-out>
+<![CDATA[Agent selector visibility: true
+Available agents: [ [32m'LEO - 코드 마스터'[39m, [32m'MOMO - 기획 천재'[39m, [32m'ALEX - 분석가'[39m ]
+Agents - LEO: true, MOMO: true, ALEX: true
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should send message to LEO" classname="specs\02-agent-chat.spec.ts" time="7.645">
+<system-out>
+<![CDATA[Chat interface not fully available
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should send message to MOMO" classname="specs\02-agent-chat.spec.ts" time="4.284">
+<system-out>
+<![CDATA[Chat not available
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should send message to ALEX" classname="specs\02-agent-chat.spec.ts" time="10.94">
+<system-out>
+<![CDATA[Chat not available
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should display chat message history" classname="specs\02-agent-chat.spec.ts" time="11.063">
+</testcase>
+<testcase name="Agent Chat System › should show typing indicator during response (if implemented)" classname="specs\02-agent-chat.spec.ts" time="3.398">
+</testcase>
+</testsuite>
+<testsuite name="specs\03-deliverables.spec.ts" timestamp="2026-02-13T00:10:08.026Z" hostname="firefox" tests="8" failures="0" skipped="0" time="39.884" errors="0">
+<testcase name="Deliverables UI System › should load deliverables test page" classname="specs\03-deliverables.spec.ts" time="4.029">
+</testcase>
+<testcase name="Deliverables UI System › should display sample deliverable cards" classname="specs\03-deliverables.spec.ts" time="5.181">
+<system-out>
+<![CDATA[Deliverable cards count: 0
+]]>
+</system-out>
+</testcase>
+<testcase name="Deliverables UI System › should filter deliverables by type" classname="specs\03-deliverables.spec.ts" time="6.146">
+<system-out>
+<![CDATA[All filter: 0 deliverables
+]]>
+</system-out>
+</testcase>
+<testcase name="Deliverables UI System › should open deliverable viewer with syntax highlighting" classname="specs\03-deliverables.spec.ts" time="4.552">
+<system-out>
+<![CDATA[No deliverables to test
+]]>
+</system-out>
+</testcase>
+<testcase name="Deliverables UI System › should display markdown rendering for documents" classname="specs\03-deliverables.spec.ts" time="4.6">
+</testcase>
+<testcase name="Deliverables UI System › should support download functionality" classname="specs\03-deliverables.spec.ts" time="5.19">
+</testcase>
+<testcase name="Deliverables UI System › should show deliverable type badges" classname="specs\03-deliverables.spec.ts" time="5.055">
+</testcase>
+<testcase name="Deliverables UI System › should show agent color indicators" classname="specs\03-deliverables.spec.ts" time="5.131">
+</testcase>
+</testsuite>
+<testsuite name="specs\04-conversation-timeline.spec.ts" timestamp="2026-02-13T00:10:08.026Z" hostname="firefox" tests="9" failures="0" skipped="0" time="63.017" errors="0">
+<testcase name="Conversation Timeline › should display conversation timeline component" classname="specs\04-conversation-timeline.spec.ts" time="6.748">
+<system-out>
+<![CDATA[Conversation timeline visibility: false
+]]>
+</system-out>
+</testcase>
+<testcase name="Conversation Timeline › should show collaboration filter options" classname="specs\04-conversation-timeline.spec.ts" time="5.911">
+</testcase>
+<testcase name="Conversation Timeline › should display collaboration events after mission" classname="specs\04-conversation-timeline.spec.ts" time="12.615">
+<system-out>
+<![CDATA[Collaboration events: 0
+]]>
+</system-out>
+</testcase>
+<testcase name="Conversation Timeline › should show agent colors in collaboration messages" classname="specs\04-conversation-timeline.spec.ts" time="6.214">
+</testcase>
+<testcase name="Conversation Timeline › should display collaboration type badges" classname="specs\04-conversation-timeline.spec.ts" time="6.02">
+</testcase>
+<testcase name="Conversation Timeline › should show timestamps on events" classname="specs\04-conversation-timeline.spec.ts" time="5.936">
+</testcase>
+<testcase name="Conversation Timeline › should filter by collaboration type" classname="specs\04-conversation-timeline.spec.ts" time="5.275">
+</testcase>
+<testcase name="Conversation Timeline › should show empty state when no collaborations" classname="specs\04-conversation-timeline.spec.ts" time="5.526">
+</testcase>
+<testcase name="Conversation Timeline › should display conversation flow (from → to)" classname="specs\04-conversation-timeline.spec.ts" time="8.772">
+</testcase>
+</testsuite>
+<testsuite name="specs\01-mission-submission.spec.ts" timestamp="2026-02-13T00:10:08.026Z" hostname="webkit" tests="5" failures="0" skipped="0" time="43.874" errors="0">
+<testcase name="Mission Submission and Agent Collaboration › should load office page with all zones visible" classname="specs\01-mission-submission.spec.ts" time="7.63">
+</testcase>
+<testcase name="Mission Submission and Agent Collaboration › should display mission input interface" classname="specs\01-mission-submission.spec.ts" time="7.409">
+</testcase>
+<testcase name="Mission Submission and Agent Collaboration › should submit mission in simulation mode" classname="specs\01-mission-submission.spec.ts" time="13.261">
+<system-out>
+<![CDATA[Mission submitted in simulation mode
+]]>
+</system-out>
+</testcase>
+<testcase name="Mission Submission and Agent Collaboration › should display agent pixel art in work zone" classname="specs\01-mission-submission.spec.ts" time="8.003">
+<system-out>
+<![CDATA[Agents visibility - LEO: false, MOMO: false, ALEX: false
+]]>
+</system-out>
+</testcase>
+<testcase name="Mission Submission and Agent Collaboration › should show terminal log messages" classname="specs\01-mission-submission.spec.ts" time="7.571">
+<system-out>
+<![CDATA[Terminal visibility: false, Logs visibility: false
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="specs\02-agent-chat.spec.ts" timestamp="2026-02-13T00:10:08.026Z" hostname="webkit" tests="7" failures="0" skipped="0" time="47.1" errors="0">
+<testcase name="Agent Chat System › should display chat panel interface" classname="specs\02-agent-chat.spec.ts" time="7.68">
+<system-out>
+<![CDATA[Chat panel visibility: false
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should display agent selector" classname="specs\02-agent-chat.spec.ts" time="8.058">
+<system-out>
+<![CDATA[Agent selector visibility: true
+Available agents: [ [32m'LEO - 코드 마스터'[39m, [32m'MOMO - 기획 천재'[39m, [32m'ALEX - 분석가'[39m ]
+Agents - LEO: true, MOMO: true, ALEX: true
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should send message to LEO" classname="specs\02-agent-chat.spec.ts" time="7.96">
+<system-out>
+<![CDATA[Chat interface not fully available
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should send message to MOMO" classname="specs\02-agent-chat.spec.ts" time="4.783">
+<system-out>
+<![CDATA[Chat not available
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should send message to ALEX" classname="specs\02-agent-chat.spec.ts" time="5.529">
+<system-out>
+<![CDATA[Chat not available
+]]>
+</system-out>
+</testcase>
+<testcase name="Agent Chat System › should display chat message history" classname="specs\02-agent-chat.spec.ts" time="8.02">
+</testcase>
+<testcase name="Agent Chat System › should show typing indicator during response (if implemented)" classname="specs\02-agent-chat.spec.ts" time="5.07">
+</testcase>
+</testsuite>
+<testsuite name="specs\03-deliverables.spec.ts" timestamp="2026-02-13T00:10:08.026Z" hostname="webkit" tests="8" failures="0" skipped="0" time="41.409" errors="0">
+<testcase name="Deliverables UI System › should load deliverables test page" classname="specs\03-deliverables.spec.ts" time="4.752">
+</testcase>
+<testcase name="Deliverables UI System › should display sample deliverable cards" classname="specs\03-deliverables.spec.ts" time="6.519">
+<system-out>
+<![CDATA[Deliverable cards count: 0
+]]>
+</system-out>
+</testcase>
+<testcase name="Deliverables UI System › should filter deliverables by type" classname="specs\03-deliverables.spec.ts" time="6.521">
+<system-out>
+<![CDATA[All filter: 0 deliverables
+]]>
+</system-out>
+</testcase>
+<testcase name="Deliverables UI System › should open deliverable viewer with syntax highlighting" classname="specs\03-deliverables.spec.ts" time="5.568">
+<system-out>
+<![CDATA[No deliverables to test
+]]>
+</system-out>
+</testcase>
+<testcase name="Deliverables UI System › should display markdown rendering for documents" classname="specs\03-deliverables.spec.ts" time="4.393">
+</testcase>
+<testcase name="Deliverables UI System › should support download functionality" classname="specs\03-deliverables.spec.ts" time="4.75">
+</testcase>
+<testcase name="Deliverables UI System › should show deliverable type badges" classname="specs\03-deliverables.spec.ts" time="4.644">
+</testcase>
+<testcase name="Deliverables UI System › should show agent color indicators" classname="specs\03-deliverables.spec.ts" time="4.262">
+</testcase>
+</testsuite>
+<testsuite name="specs\04-conversation-timeline.spec.ts" timestamp="2026-02-13T00:10:08.026Z" hostname="webkit" tests="9" failures="0" skipped="0" time="54.062" errors="0">
+<testcase name="Conversation Timeline › should display conversation timeline component" classname="specs\04-conversation-timeline.spec.ts" time="6.804">
+<system-out>
+<![CDATA[Conversation timeline visibility: false
+]]>
+</system-out>
+</testcase>
+<testcase name="Conversation Timeline › should show collaboration filter options" classname="specs\04-conversation-timeline.spec.ts" time="4.395">
+</testcase>
+<testcase name="Conversation Timeline › should display collaboration events after mission" classname="specs\04-conversation-timeline.spec.ts" time="12.281">
+<system-out>
+<![CDATA[Collaboration events: 0
+]]>
+</system-out>
+</testcase>
+<testcase name="Conversation Timeline › should show agent colors in collaboration messages" classname="specs\04-conversation-timeline.spec.ts" time="4.198">
+</testcase>
+<testcase name="Conversation Timeline › should display collaboration type badges" classname="specs\04-conversation-timeline.spec.ts" time="4.315">
+</testcase>
+<testcase name="Conversation Timeline › should show timestamps on events" classname="specs\04-conversation-timeline.spec.ts" time="4.494">
+</testcase>
+<testcase name="Conversation Timeline › should filter by collaboration type" classname="specs\04-conversation-timeline.spec.ts" time="4.017">
+</testcase>
+<testcase name="Conversation Timeline › should show empty state when no collaborations" classname="specs\04-conversation-timeline.spec.ts" time="4.121">
+</testcase>
+<testcase name="Conversation Timeline › should display conversation flow (from → to)" classname="specs\04-conversation-timeline.spec.ts" time="9.437">
+</testcase>
+</testsuite>
+</testsuites>

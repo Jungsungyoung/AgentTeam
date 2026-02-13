@@ -1,0 +1,3321 @@
+{
+  "config": {
+    "configFile": "D:\\01_DevProjects\\VibeCoding_Projects\\02_AgentTeam_02\\my-office\\playwright.config.ts",
+    "rootDir": "D:/01_DevProjects/VibeCoding_Projects/02_AgentTeam_02/my-office/tests/playwright",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 11
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/01_DevProjects/VibeCoding_Projects/02_AgentTeam_02/my-office/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 11
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/01_DevProjects/VibeCoding_Projects/02_AgentTeam_02/my-office/tests/playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/01_DevProjects/VibeCoding_Projects/02_AgentTeam_02/my-office/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 11
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "D:/01_DevProjects/VibeCoding_Projects/02_AgentTeam_02/my-office/tests/playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/01_DevProjects/VibeCoding_Projects/02_AgentTeam_02/my-office/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 11
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "D:/01_DevProjects/VibeCoding_Projects/02_AgentTeam_02/my-office/tests/playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/junit.xml"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 11,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://localhost:3000",
+      "reuseExistingServer": true,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "specs\\01-mission-submission.spec.ts",
+      "file": "specs/01-mission-submission.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Mission Submission and Agent Collaboration",
+          "file": "specs/01-mission-submission.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should load office page with all zones visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4940,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:09.426Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-9694ea8482ba9c532ffd",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should display mission input interface",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4874,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:09.439Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-55b816ab1faf5344f59f",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should submit mission in simulation mode",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 7258,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Mission submitted in simulation mode\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:09.450Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-e67ce3b03e13d9542553",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should display agent pixel art in work zone",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 4684,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Agents visibility - LEO: false, MOMO: false, ALEX: false\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:09.540Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-6260eed12f6fad1c6bc6",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "should show terminal log messages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 4488,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Terminal visibility: false, Logs visibility: false\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:09.517Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-23237ce626b9f44eb909",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 83,
+              "column": 7
+            },
+            {
+              "title": "should load office page with all zones visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 8828,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:21.283Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-0e05e4fb05dbc2efc6c2",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should display mission input interface",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 9126,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:21.404Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-dd072d82e2b15b23f6d3",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should submit mission in simulation mode",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 7,
+                      "status": "passed",
+                      "duration": 8139,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Mission submitted in simulation mode\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:21.241Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-49d6ce2ee6d530b73e7d",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should display agent pixel art in work zone",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 10,
+                      "status": "passed",
+                      "duration": 6708,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Agents visibility - LEO: false, MOMO: false, ALEX: false\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:21.268Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-5201f99ba661614ade15",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "should show terminal log messages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 4160,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Terminal visibility: false, Logs visibility: false\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:21.604Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-bc19c5769e7b20005e4f",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 83,
+              "column": 7
+            },
+            {
+              "title": "should load office page with all zones visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 25,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7630,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:45.442Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-7c7e6e8d1fb560b8b62b",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should display mission input interface",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 22,
+                      "parallelIndex": 9,
+                      "status": "passed",
+                      "duration": 7409,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:45.158Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-ce9c2eb569a592c8a1ac",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should submit mission in simulation mode",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 24,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 13261,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Mission submitted in simulation mode\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:45.548Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-f1a7b278035d956c387d",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should display agent pixel art in work zone",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 23,
+                      "parallelIndex": 7,
+                      "status": "passed",
+                      "duration": 8003,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Agents visibility - LEO: false, MOMO: false, ALEX: false\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:45.361Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-379eca54f2557a46e7e3",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "should show terminal log messages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 26,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 7571,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Terminal visibility: false, Logs visibility: false\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:45.899Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b6f505bb2aab8aeee19d-565b057ecbbf4cf123d9",
+              "file": "specs/01-mission-submission.spec.ts",
+              "line": 83,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "specs\\02-agent-chat.spec.ts",
+      "file": "specs/02-agent-chat.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Agent Chat System",
+          "file": "specs/02-agent-chat.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display chat panel interface",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 4797,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Chat panel visibility: false\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:09.473Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-e3285df1ffd3bec22b65",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should display agent selector",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 4674,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Agent selector visibility: true\n"
+                        },
+                        {
+                          "text": "Available agents: [ \u001b[32m'LEO - 코드 마스터'\u001b[39m, \u001b[32m'MOMO - 기획 천재'\u001b[39m, \u001b[32m'ALEX - 분석가'\u001b[39m ]\n"
+                        },
+                        {
+                          "text": "Agents - LEO: true, MOMO: true, ALEX: true\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:09.487Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-89953d379b7588072a34",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "should send message to LEO",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 7,
+                      "status": "passed",
+                      "duration": 4475,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Chat interface not fully available\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:09.495Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-2d7acd7319157850e406",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 45,
+              "column": 7
+            },
+            {
+              "title": "should send message to MOMO",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 8,
+                      "status": "passed",
+                      "duration": 3196,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Chat not available\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:09.548Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-c2fd9888e90a4b7f9048",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "should send message to ALEX",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 9,
+                      "status": "passed",
+                      "duration": 3401,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Chat not available\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:09.538Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-5131f3b36f96f816aae3",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 82,
+              "column": 7
+            },
+            {
+              "title": "should display chat message history",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 10,
+                      "status": "passed",
+                      "duration": 4376,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:09.539Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-c975431fb94676891065",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 96,
+              "column": 7
+            },
+            {
+              "title": "should show typing indicator during response (if implemented)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 8,
+                      "status": "passed",
+                      "duration": 2379,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:13.151Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-342036149f11d55c16f1",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 107,
+              "column": 7
+            },
+            {
+              "title": "should display chat panel interface",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 5699,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Chat panel visibility: false\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:22.186Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-d73036e5957b464895d3",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should display agent selector",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 8,
+                      "status": "passed",
+                      "duration": 10895,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Agent selector visibility: true\n"
+                        },
+                        {
+                          "text": "Available agents: [ \u001b[32m'LEO - 코드 마스터'\u001b[39m, \u001b[32m'MOMO - 기획 천재'\u001b[39m, \u001b[32m'ALEX - 분석가'\u001b[39m ]\n"
+                        },
+                        {
+                          "text": "Agents - LEO: true, MOMO: true, ALEX: true\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:22.105Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-261111df6842b5c623eb",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "should send message to LEO",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7645,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Chat interface not fully available\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:22.104Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-900677ae7f4b04065f2d",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 45,
+              "column": 7
+            },
+            {
+              "title": "should send message to MOMO",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 4284,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Chat not available\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:22.146Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-0a09a64205cd94f1d5b6",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "should send message to ALEX",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 9,
+                      "status": "passed",
+                      "duration": 10940,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Chat not available\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:26.680Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-07d7075fc7496c789df1",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 82,
+              "column": 7
+            },
+            {
+              "title": "should display chat message history",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 21,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11063,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:26.780Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-ea2f9ab3c8e5e86c3c8f",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 96,
+              "column": 7
+            },
+            {
+              "title": "should show typing indicator during response (if implemented)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 3398,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:26.679Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-56c03e2c526e50683735",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 107,
+              "column": 7
+            },
+            {
+              "title": "should display chat panel interface",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 27,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 7680,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Chat panel visibility: false\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:46.166Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-f95cea2e9201bdd6c731",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should display agent selector",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 28,
+                      "parallelIndex": 10,
+                      "status": "passed",
+                      "duration": 8058,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Agent selector visibility: true\n"
+                        },
+                        {
+                          "text": "Available agents: [ \u001b[32m'LEO - 코드 마스터'\u001b[39m, \u001b[32m'MOMO - 기획 천재'\u001b[39m, \u001b[32m'ALEX - 분석가'\u001b[39m ]\n"
+                        },
+                        {
+                          "text": "Agents - LEO: true, MOMO: true, ALEX: true\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:46.274Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-1bd79cd5758aae0f623a",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "should send message to LEO",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 29,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7960,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Chat interface not fully available\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:47.043Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-46fe9745b46061c420e3",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 45,
+              "column": 7
+            },
+            {
+              "title": "should send message to MOMO",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 30,
+                      "parallelIndex": 8,
+                      "status": "passed",
+                      "duration": 4783,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Chat not available\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:47.327Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-2e890597b212165270dc",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "should send message to ALEX",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 31,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 5529,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Chat not available\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:51.596Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-697f0a437bfcc91810c5",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 82,
+              "column": 7
+            },
+            {
+              "title": "should display chat message history",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 32,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 8020,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:51.687Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-e90846d73f9e0d1e66db",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 96,
+              "column": 7
+            },
+            {
+              "title": "should show typing indicator during response (if implemented)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 30,
+                      "parallelIndex": 8,
+                      "status": "passed",
+                      "duration": 5070,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:52.263Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "59c0e8e951b6a81f1949-3fd248da15f5d6ad3517",
+              "file": "specs/02-agent-chat.spec.ts",
+              "line": 107,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "specs\\03-deliverables.spec.ts",
+      "file": "specs/03-deliverables.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Deliverables UI System",
+          "file": "specs/03-deliverables.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should load deliverables test page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 9,
+                      "status": "passed",
+                      "duration": 2326,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:13.385Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-f17cdd54b067d5a87a29",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should display sample deliverable cards",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 10,
+                      "status": "passed",
+                      "duration": 4150,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Deliverable cards count: 0\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:14.235Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-1c098aff29002e48cbf0",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "should filter deliverables by type",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 7,
+                      "status": "passed",
+                      "duration": 4117,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "All filter: 0 deliverables\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:14.247Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-fb38929d101bf933980d",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "should open deliverable viewer with syntax highlighting",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 4045,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "No deliverables to test\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:14.272Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-dc9d04082f93fc4e8bb2",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "should display markdown rendering for documents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 2935,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:14.441Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-abda0e566eb6c6e4ee5f",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 97,
+              "column": 7
+            },
+            {
+              "title": "should support download functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3552,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:14.461Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-21cd3bb9c06945e1cf7f",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 127,
+              "column": 7
+            },
+            {
+              "title": "should show deliverable type badges",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 3594,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:14.471Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-edf6e289c13120a9cd5b",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 152,
+              "column": 7
+            },
+            {
+              "title": "should show agent color indicators",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3538,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:14.528Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-7948bdd6164a9d264bf9",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 167,
+              "column": 7
+            },
+            {
+              "title": "should load deliverables test page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 4029,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:27.345Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-af68a6eced235fe40489",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should display sample deliverable cards",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 7,
+                      "status": "passed",
+                      "duration": 5181,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Deliverable cards count: 0\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:30.016Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-3d911b93ffe95770edd2",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "should filter deliverables by type",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 6146,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "All filter: 0 deliverables\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:30.040Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-e743f8e75ce52b8cd911",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "should open deliverable viewer with syntax highlighting",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 4552,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "No deliverables to test\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:30.104Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-8e8c63d617c5f969a9a8",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "should display markdown rendering for documents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 4600,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:31.403Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-156caec99594ea58c271",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 97,
+              "column": 7
+            },
+            {
+              "title": "should support download functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 10,
+                      "status": "passed",
+                      "duration": 5190,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:31.862Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-c5ceea5840e6ee950b74",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 127,
+              "column": 7
+            },
+            {
+              "title": "should show deliverable type badges",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 5055,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:33.751Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-01b4ca20e6b5a2af5802",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 152,
+              "column": 7
+            },
+            {
+              "title": "should show agent color indicators",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 5131,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:34.681Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-cf497a0d0356491a50d3",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 167,
+              "column": 7
+            },
+            {
+              "title": "should load deliverables test page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 22,
+                      "parallelIndex": 9,
+                      "status": "passed",
+                      "duration": 4752,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:52.713Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-99c572c166650589d4ec",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should display sample deliverable cards",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 25,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6519,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Deliverable cards count: 0\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:53.214Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-41c299d5f249b28dc4f6",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "should filter deliverables by type",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 23,
+                      "parallelIndex": 7,
+                      "status": "passed",
+                      "duration": 6521,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "All filter: 0 deliverables\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:53.527Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-1339cd1fb0841ee048ae",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "should open deliverable viewer with syntax highlighting",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 26,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 5568,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "No deliverables to test\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:53.619Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-3735084cc5f1291539a8",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "should display markdown rendering for documents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 27,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 4393,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:53.976Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-5bc8fcd98fbe31f24619",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 97,
+              "column": 7
+            },
+            {
+              "title": "should support download functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 28,
+                      "parallelIndex": 10,
+                      "status": "passed",
+                      "duration": 4750,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:54.502Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-10e05300d974ac565877",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 127,
+              "column": 7
+            },
+            {
+              "title": "should show deliverable type badges",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 29,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4644,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:55.171Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-4d07bb0aa46a0635c6ce",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 152,
+              "column": 7
+            },
+            {
+              "title": "should show agent color indicators",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 31,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 4262,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:57.260Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10f014fb92097bec6c94-a9a1d84c7bb4021fa544",
+              "file": "specs/03-deliverables.spec.ts",
+              "line": 167,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "specs\\04-conversation-timeline.spec.ts",
+      "file": "specs/04-conversation-timeline.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Conversation Timeline",
+          "file": "specs/04-conversation-timeline.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display conversation timeline component",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 3780,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Conversation timeline visibility: false\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:14.563Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-43f46f537d29b06b3776",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should show collaboration filter options",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 8,
+                      "status": "passed",
+                      "duration": 2183,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:15.566Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-6ae0772fc467170f0523",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 21,
+              "column": 7
+            },
+            {
+              "title": "should display collaboration events after mission",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 9,
+                      "status": "passed",
+                      "duration": 7690,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Collaboration events: 0\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:15.742Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-fbd74fb872213ef6db4a",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "should show agent colors in collaboration messages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1986,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:16.865Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-92d8707dd06820d0f56a",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 55,
+              "column": 7
+            },
+            {
+              "title": "should display collaboration type badges",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 2212,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:17.397Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-de4b60454d7427b48abe",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 74,
+              "column": 7
+            },
+            {
+              "title": "should show timestamps on events",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 8,
+                      "status": "passed",
+                      "duration": 2245,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:17.768Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-5d12a07e61ddf327331a",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 90,
+              "column": 7
+            },
+            {
+              "title": "should filter by collaboration type",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2291,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:18.051Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-2e34d7a1d1403542dd92",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 107,
+              "column": 7
+            },
+            {
+              "title": "should show empty state when no collaborations",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 2302,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:18.094Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-897a3e2c681b190f48b3",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 131,
+              "column": 7
+            },
+            {
+              "title": "should display conversation flow (from → to)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6212,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:18.091Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-1bc3f04e875898e99c6f",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 147,
+              "column": 7
+            },
+            {
+              "title": "should display conversation timeline component",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 7,
+                      "status": "passed",
+                      "duration": 6748,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Conversation timeline visibility: false\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:35.222Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-2b667f7924f2eeaf72bc",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should show collaboration filter options",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 5911,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:36.031Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-2668351e86dca00412e5",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 21,
+              "column": 7
+            },
+            {
+              "title": "should display collaboration events after mission",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 12615,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Collaboration events: 0\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:36.041Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-2ee07098ef6e6a0accd1",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "should show agent colors in collaboration messages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 6214,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:36.100Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-0b39182a250cb0b0021b",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 55,
+              "column": 7
+            },
+            {
+              "title": "should display collaboration type badges",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 6020,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:36.213Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-0368bcf6e74cfa54291f",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 74,
+              "column": 7
+            },
+            {
+              "title": "should show timestamps on events",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 10,
+                      "status": "passed",
+                      "duration": 5936,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:37.096Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-7b986267997ce77c28bd",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 90,
+              "column": 7
+            },
+            {
+              "title": "should filter by collaboration type",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 5275,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:38.835Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-f9c35a6b1ac183a79d4e",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 107,
+              "column": 7
+            },
+            {
+              "title": "should show empty state when no collaborations",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 8,
+                      "status": "passed",
+                      "duration": 5526,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:38.857Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-eafabb9901f8338e995f",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 131,
+              "column": 7
+            },
+            {
+              "title": "should display conversation flow (from → to)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 8772,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:39.839Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-aad254f95245f6f59fde",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 147,
+              "column": 7
+            },
+            {
+              "title": "should display conversation timeline component",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 30,
+                      "parallelIndex": 8,
+                      "status": "passed",
+                      "duration": 6804,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Conversation timeline visibility: false\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:57.360Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-105534a91479efe315d7",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should show collaboration filter options",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 22,
+                      "parallelIndex": 9,
+                      "status": "passed",
+                      "duration": 4395,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:57.504Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-0608f034386655787e95",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 21,
+              "column": 7
+            },
+            {
+              "title": "should display collaboration events after mission",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 27,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 12281,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Collaboration events: 0\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:58.395Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-5449a430a09069a845b2",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "should show agent colors in collaboration messages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 24,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 4198,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:58.962Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-b18b69b7ca60e1fd59a6",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 55,
+              "column": 7
+            },
+            {
+              "title": "should display collaboration type badges",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 26,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 4315,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:59.224Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-d5f7c1ffb7aaaa228cd4",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 74,
+              "column": 7
+            },
+            {
+              "title": "should show timestamps on events",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 28,
+                      "parallelIndex": 10,
+                      "status": "passed",
+                      "duration": 4494,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:59.279Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-faa50ba96f560681c0b0",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 90,
+              "column": 7
+            },
+            {
+              "title": "should filter by collaboration type",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 25,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4017,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:59.755Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-2ef2e9d3ab80446a4f42",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 107,
+              "column": 7
+            },
+            {
+              "title": "should show empty state when no collaborations",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 29,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4121,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:59.843Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-2e3231603407c93e6923",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 131,
+              "column": 7
+            },
+            {
+              "title": "should display conversation flow (from → to)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 32,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 9437,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-13T00:10:59.909Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "27d058de6151fa9e4a99-7f8abcca4c4fef4b3fd2",
+              "file": "specs/04-conversation-timeline.spec.ts",
+              "line": 147,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-02-13T00:10:05.426Z",
+    "duration": 65428.622,
+    "expected": 87,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -74,35 +74,65 @@ export const alexPixelData: PixelGrid = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 ];
 
+// BOSS (총괄 매니저) - 보라 (Crown 왕관 모양)
+export const bossPixelData: PixelGrid = [
+  [0, 0, 0, 2, 0, 2, 0, 2, 2, 0, 2, 0, 2, 0, 0, 0], // Crown top
+  [0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0], // Crown base
+  [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0], // Head
+  [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+  [0, 0, 1, 1, 2, 2, 1, 1, 1, 1, 2, 2, 1, 1, 0, 0], // Eyes
+  [0, 0, 1, 1, 2, 2, 1, 1, 1, 1, 2, 2, 1, 1, 0, 0],
+  [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+  [0, 0, 0, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 0, 0, 0], // Mouth
+  [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0], // Body
+  [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+  [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+];
+
 export const agentPixelDataMap: Record<AgentId, AgentPixelData> = {
+  boss: {
+    id: 'boss',
+    grid: bossPixelData,
+    colors: {
+      primary: '#bb44ff',
+      dark: '#7700cc',
+      light: '#dd88ff',
+      glow: 'rgba(187, 68, 255, 0.5)',
+    },
+  },
   leo: {
     id: 'leo',
     grid: leoPixelData,
     colors: {
-      primary: '#ff4444',
-      dark: '#cc0000',
-      light: '#ff6666',
-      glow: 'rgba(255, 68, 68, 0.4)',
+      primary: '#ff4466',
+      dark: '#cc0033',
+      light: '#ff6688',
+      glow: 'rgba(255, 68, 102, 0.4)',
     },
   },
   momo: {
     id: 'momo',
     grid: momoPixelData,
     colors: {
-      primary: '#ffaa00',
-      dark: '#cc6600',
-      light: '#ffcc33',
-      glow: 'rgba(255, 170, 0, 0.4)',
+      primary: '#ffbb33',
+      dark: '#cc8800',
+      light: '#ffdd66',
+      glow: 'rgba(255, 187, 51, 0.4)',
     },
   },
   alex: {
     id: 'alex',
     grid: alexPixelData,
     colors: {
-      primary: '#00ccff',
-      dark: '#0088cc',
-      light: '#33ddff',
-      glow: 'rgba(0, 204, 255, 0.4)',
+      primary: '#00ddff',
+      dark: '#0099cc',
+      light: '#33eeff',
+      glow: 'rgba(0, 221, 255, 0.4)',
     },
   },
 };

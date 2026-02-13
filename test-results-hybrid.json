@@ -1,0 +1,72 @@
+﻿[
+    {
+        "Duration":  4899.8138,
+        "Message":  "",
+        "Timestamp":  "2026-02-13 02:20:34",
+        "Name":  "API Request Executed",
+        "Passed":  true
+    },
+    {
+        "Duration":  0,
+        "Message":  "Cache miss indicator found in response",
+        "Timestamp":  "2026-02-13 02:20:34",
+        "Name":  "Cache Miss Detected",
+        "Passed":  true
+    },
+    {
+        "Duration":  0,
+        "Message":  "Target: \u003c3s, Critical: \u003c5s, Actual: 4.9s",
+        "Timestamp":  "2026-02-13 02:20:34",
+        "Name":  "API Response Time",
+        "Passed":  true
+    },
+    {
+        "Duration":  207.84640000000002,
+        "Message":  "",
+        "Timestamp":  "2026-02-13 02:20:35",
+        "Name":  "API Request Executed",
+        "Passed":  true
+    },
+    {
+        "Duration":  0,
+        "Message":  "Cache hit indicator found in response",
+        "Timestamp":  "2026-02-13 02:20:35",
+        "Name":  "Cache Hit Detected",
+        "Passed":  true
+    },
+    {
+        "Duration":  207.84640000000002,
+        "Message":  "Target: \u003c100ms, Critical: \u003c200ms, Actual: 207.85ms",
+        "Timestamp":  "2026-02-13 02:20:35",
+        "Name":  "Cache Hit Response Time",
+        "Passed":  false
+    },
+    {
+        "Duration":  0,
+        "Message":  "5/5 requests served from cache",
+        "Timestamp":  "2026-02-13 02:20:37",
+        "Name":  "Cache Consistency",
+        "Passed":  true
+    },
+    {
+        "Duration":  0,
+        "Message":  "Request succeeded (API key present or not required)",
+        "Timestamp":  "2026-02-13 02:20:42",
+        "Name":  "API Key Validation",
+        "Passed":  true
+    },
+    {
+        "Duration":  0,
+        "Message":  "Rate limit not triggered in test environment (verify retry logic exists in code)",
+        "Timestamp":  "2026-02-13 02:20:57",
+        "Name":  "Rate Limit Testing",
+        "Passed":  true
+    },
+    {
+        "Duration":  0,
+        "Message":  "Target: \u003e50%, Critical: \u003e30%, Actual: 54.55%",
+        "Timestamp":  "2026-02-13 02:20:57",
+        "Name":  "Cache Hit Rate",
+        "Passed":  true
+    }
+]
